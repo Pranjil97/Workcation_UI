@@ -12,7 +12,7 @@ function App() {
                         <img className="h-10" src="/img/logo-brand.svg" alt="workcation" />
                         <img className="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden "
                             src="/img/beach-work.jpg" alt="Woman workcating on the beach" />
-                        <h1 className="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">You can
+                        <h1 className="mt-6 text-2xl font-headline tracking-tighter font-semibold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">You can
                             work from
                             anywhere. <br className="hidden lg:inline"></br><span className="text-brand">Take
                                 advantage of
