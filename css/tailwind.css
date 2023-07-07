@@ -1,3 +1,37 @@
 @tailwind base;
-@tailwind components;
+@tailwind components;    
 @tailwind utilities;
+    
+@layer components{
+    .btn{
+        @apply 
+        inline-block
+        px-5 
+        py-3 
+        rounded-lg
+        focus:outline-none
+         focus:ring
+         focus:ring-offset-2
+         uppercase 
+        tracking-wider 
+        font-semibold
+        text-sm
+        sm:mt-6
+         sm:text-base
+         m-1
+        }
+        
+        .btn-primary{
+        @apply  text-white shadow-lg bg-brand hover:bg-brand-light hover:-translate-y-0.5
+         transition transform  focus:ring-brand focus:ring-opacity-50 active:bg-brand-dark  
+         hover:-translate-y-0.5
+         transition transform first-letter:shadow-lg 
+        }
+
+        .btn-secondary{
+        @apply  text-gray-800 bg-gray-300 hover:bg-gray-200  focus:ring-gray-300 focus:ring-opacity-50 active:bg-gray-400   
+        }
+
+
+        
+}
