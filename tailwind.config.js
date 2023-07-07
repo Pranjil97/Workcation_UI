@@ -3,8 +3,8 @@ export default {
   Purge: ["./src/**/*.{js,ts,jsx,tsx}", "./index.html"],
   darkMode: false, // or 'media' or 'class'
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
+    'src/css/*.css',
   ],
   theme: {
     extend: {
